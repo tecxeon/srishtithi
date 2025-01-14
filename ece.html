@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecxeon '23</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+        width: 90%;
+        max-width: 400px;
+      }
+
+      .logo {
+        margin-bottom: 20px;
+      }
+
+      .logo img {
+        width: 60px;
+        height: 60px;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .button {
+        background-color: #333;
+        color: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        transition: all 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #555;
+        transform: scale(1.05);
+      }
+
+      .button img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .button span {
+        flex-grow: 1;
+        margin-left: 15px;
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        .button {
+          font-size: 14px;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="logo-placeholder.png" alt="Tecxeon Logo" />
+      </div>
+      <div class="title">TECXEON '23</div>
+      <div class="button-container">
+        <button class="button">
+          <img src="instagram-icon.png" alt="Instagram" />
+          <span>Official Instagram</span>
+        </button>
+        <button class="button">
+          <img src="brochure-icon.png" alt="Brochure" />
+          <span>Tecxeon Brochure</span>
+        </button>
+        <button class="button">
+          <img src="ideathon-icon.png" alt="Ideathon" />
+          <span>Ideathon</span>
+        </button>
+        <button class="button">
+          <img src="typerace-icon.png" alt="Type Race" />
+          <span>Type Race</span>
+        </button>
+        <button class="button">
+          <img src="invention-icon.png" alt="Man and Invention" />
+          <span>Man and Invention</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
